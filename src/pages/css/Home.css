@@ -1,0 +1,275 @@
+.homepage{
+    width: auto;
+}
+.slider-content{
+    margin-top: -80px;
+}
+.content-img{
+   width: 100%;
+}
+.content-img > img{
+    width: 100%;
+}
+.introduce-company{
+    display: flex;
+    margin-top: 60px;
+    height: auto;
+    width: 86%;
+    justify-content: center;
+    align-items: center;
+}
+.text-introduce{
+    width: 50%;
+    margin-left: 30px;
+}
+.text-introduce>p{
+    font-size: 15px;
+    line-height: 2em;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+.text-introduce .text-1{
+    color: #eb7d14;
+    font-weight: 700;
+}
+.text-introduce .text-2{
+    color: #009347;
+    font-weight: 700;
+}
+.slogan{
+    font-weight: 700;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+}
+.img-introduce{
+    width: 50%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .img-intro{
+    height: 400px;
+    width: 50%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-logo-intro{
+    width: 100px;
+    height: 100px;
+    background-color: #009347;
+    z-index: 25;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item-logo-intro:hover{
+    transform: rotate(315deg);
+    transition: all 0.5s;
+}
+
+.item-logo-intro:hover .item-logo-intro>img{
+    transform: rotate(-270deg);
+    transition: all 0.1s;
+} 
+.item-logo-intro>img{
+    width: 80%;
+    transform: rotate(-90deg);
+    transition: transform 0.3s;
+}
+
+.text-introduce .icon-content{
+    display: flex;
+    
+}
+.icon-content .icon{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.icon-content .icon > div{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #009347;
+   
+}
+.tamnhin-sumenh-cotloi{
+    margin-top: 40px;
+    height: 700px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.tamnhin-sumenh-cotloi .img-tamnhin-sumenh{
+    width: 50%;
+    height: 100%;
+    background: #34964d;
+    z-index: 1;
+    opacity: .92;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute!important;
+    margin-left: -50%;
+}
+.text-tamnhin-sumenh{
+    height: 100%;
+    width: 50%;
+    background: rgb(233, 240, 240);
+    position: absolute;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-tamnhin-sumenh .text{
+}
+
+.list-box{
+   display: flex;
+   z-index: 10;
+   flex-direction: column;
+}
+.box-icon{
+    width: 250px;
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 3px;
+        
+    }
+.text-tieude{
+    font-weight: 700;
+    font-size: 20px;
+    &:hover{
+        color: #eb7d14;
+    }
+}
+
+.box{
+    height: 120px;
+    width: 650px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: calc(50% - 65px);
+    padding: 10px;
+}
+.box .text{
+    margin-left: 60px;
+}
+.box-icon img{
+    width: 50px;
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.4);
+        transition: all 0.5s;
+    }
+}
+.box .icon-thutu{
+    position: absolute;
+    padding: 8px;
+    background-color: #eb7d14;
+    color: #fff;
+    font-weight:700;
+    border-radius: 50%;
+    margin-left: -70px;
+    margin-top: -120px;
+    font-size: 12px;
+}
+.sanpham{
+    margin-top: 70px;
+    height: 400px;
+}
+.tieude-sanpham{
+    font-size: 30px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sanpham-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .sanpham-content .block-sp{
+        width: 300px;
+        height: 290px;
+        background-color: rgb(207, 212, 218);
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      
+        &:hover{
+            .tt-sp{
+                visibility: visible;
+                transition: all 1s;
+                overflow: hidden; 
+                height: 100%;
+                cursor: pointer;
+            }
+        }
+    }
+    .block-sp img{
+        width: 96%;
+    }
+    .block-sp .tensanpham{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        font-weight: 700;
+        height: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+    }
+    .block-sp .tt-sp {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #009347;
+        color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+        border-bottom: #eb7d14 solid 4px;
+        visibility: hidden;
+        height: 0;
+        overflow: hidden;
+        
+     
+    }
+    .tt-sp .tieude-sanpham{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .noidung-sanpham{
+        font-weight: 670;
+        line-height: 1.6em;
+        font-size: 15px;
+    }
